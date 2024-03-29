@@ -8,7 +8,7 @@ with open("my_file.txt","w") as file:
 #file reading and display
 with open("my_file.txt","r") as file:
   contents=file.read()
-  print("file content:\n",contents)
+  print("file contents:\n",contents)
 #file appending
 with open("my_file.txt","a") as file:
   file.write("my second name is ntoiti.\n")
