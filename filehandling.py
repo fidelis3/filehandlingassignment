@@ -3,7 +3,7 @@
 with open("my_file.txt","w") as file:
   file.write("i am fidelis\n")
   file.write("this is line:3\n")
-  file.write("i love my dad\n")
+  file.write("i love my mum and dad\n")
   print("file created and lines written successfully")
 #file reading and display
 with open("my_file.txt","r") as file:
