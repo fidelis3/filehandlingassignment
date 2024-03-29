@@ -8,7 +8,7 @@ with open("my_file.txt","w") as file:
 #file reading and display
 with open("my_file.txt","r") as file:
   contents=file.read()
-  print("file contents:\n",contents)
+  print("file content:\n",contents)
 #file appending
 with open("my_file.txt","a") as file:
   file.write("my second name is ntoiti.\n")
@@ -18,7 +18,7 @@ with open("my_file.txt","a") as file:
 #display contents after appending
 with open("my_file.txt","r") as file:
     contents=file.read()
-    print("contents after adding:\n",contents)
+    print("content after adding:\n",contents)
 print("file handling operations completed.")
 
 
